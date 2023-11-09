@@ -15,9 +15,9 @@ end
 Redmine::Plugin.register :redmine_pivot_table do
   name 'Redmine Pivot Table plugin'
   author 'Daiju Kito'
-  description 'Pivot table plugin for Redmine using pivottable.js'
-  version '0.0.7'
-  url 'https://github.com/deecay/redmine_pivot_table'
+  description 'Pivot table plugin for Redmine 5.0.x using pivottable.js'
+  version '0.0.8'
+  url 'https://github.com/yschao77/redmine_pivot_table'
 
   project_module :pivottables do
     permission :view_pivottables, :pivottables => [:index]
