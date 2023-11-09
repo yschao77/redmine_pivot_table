@@ -1,6 +1,6 @@
 # Redmine PivotTable
 
-## Emily_modified 231109 For 5.0.x usage
+## Emily_modified 231109 for 5.0.x usage - tag 0.0.8
 
 1. create a folder `lib` under `lib`
 2. move files in `lib` to `lib/lib`
