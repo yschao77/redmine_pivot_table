@@ -1,6 +1,6 @@
 require 'redmine'
-require 'query_column_patch'
-require 'projects_helper_patch'
+require File.expand_path(File.dirname(__FILE__) + '/lib/redmine_pivot_table/query_column_patch.rb')
+require File.expand_path(File.dirname(__FILE__) + '/lib/redmine_pivot_table/projects_helper_patch.rb')
 
 Rails.configuration.to_prepare do
   if Redmine::VERSION.to_s < "2.6.0"

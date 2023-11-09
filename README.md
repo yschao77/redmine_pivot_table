@@ -1,5 +1,19 @@
 # Redmine PivotTable
 
+## Emily_modified 231109 For 5.0.x usage
+
+1. create a folder `lib` under `lib`
+2. move files in `lib` to `lib/lib`
+3. replace `init.rb` 2nd and 3rd row to follow
+```
+require File.expand_path(File.dirname(__FILE__) + '/lib/redmine_pivot_table/query_column_patch.rb')
+require File.expand_path(File.dirname(__FILE__) + '/lib/redmine_pivot_table/projects_helper_patch.rb')
+```
+4. correcting translation of `projects_helper_patch.rb` 
+```
+:label_overall_spent_time -> :label_total_spent_time
+:label_overall_activity -> `:label_activity
+```
 
 ## About
 
