@@ -1,0 +1,9 @@
+# Traditional Chinese translated by YunShanChao
+zh-tw:
+  label_pivottables: "樞紐分析"
+  project_module_pivottables: "樞紐分析"
+  header: "樞紐分析表"
+  clear_all: "清除所有樞紐條件"
+  label_issue_note_plural: "Issue notes"
+  label_issue_edit_plural: "Issue status updated"
+  label_issue_closed_plural: "Issue closed"
